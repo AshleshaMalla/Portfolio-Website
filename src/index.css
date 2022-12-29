@@ -7,6 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --box-width: 215px;
+  --box-height: 383px;
+  --box-border-radius: 5px;
+
+  --box-info-width: 180px;
+  --box-info-height: 370px;
+  
+  --box-info-description-height: 100px;
+  --box-info-description-width: auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
